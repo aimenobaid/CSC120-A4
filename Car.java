@@ -44,7 +44,8 @@ import java.util.ArrayList;
      * @param p Passenger to be removed
      * @return true if successful, false if passenger not found
      */
-     public Boolean removePassenger(Passenger p) {
+    
+ public Boolean removePassenger(Passenger p) {
         return passengers.remove(p);
     }
 

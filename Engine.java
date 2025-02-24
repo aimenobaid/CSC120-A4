@@ -1,5 +1,5 @@
 /**
- * The Engine class represents the locomotive engine of a train.
+ * The Engine class represents the engine of a train.
  * It implements EngineRequirements and manages fuel type, current fuel level, and refueling.
  */
 public class Engine implements EngineRequirements{
@@ -45,7 +45,7 @@ public class Engine implements EngineRequirements{
      */
     public Boolean go() {
         if (this.currentFuel > 0) {
-            this.currentFuel -= 10; // Arbitrary fuel consumption rate
+            this.currentFuel -= 10; // some fuel consumption rate
             System.out.println("Choo choo! Fuel remaining: " + this.currentFuel);
             return true;
         } else {
